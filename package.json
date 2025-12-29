@@ -1,8 +1,12 @@
 {
-  "name": "yes",
+  "name": "namaste-reactjs",
   "version": "1.0.0",
+  "type": "module",
   "description": "this is namste react by anu",
+
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
