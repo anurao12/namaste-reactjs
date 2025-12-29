@@ -24,5 +24,6 @@ const HeadingComponent = () => (
   </div>
 );
 
+// we can use react component inside element and element inside component.
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<HeadingComponent />);
